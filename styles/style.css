@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#fundo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.semaforo {
+  width: 100px;
+  height: 250px;
+  background-color: #333;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.semaforo .luz {
+  width: 60px;
+  height: 60px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+.botoes button {
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+}
+.botoes .verde-btn {
+  background-color: green;
+}
+.botoes .verde-btn:hover {
+  background-color: #4deb4d;
+}
+.botoes .amarelo-btn {
+  background-color: yellow;
+}
+.botoes .amarelo-btn:hover {
+  background-color: #d4d479;
+}
+.botoes .vermelho-btn {
+  background-color: red;
+}
+.botoes .vermelho-btn:hover {
+  background-color: #c43737;
+}/*# sourceMappingURL=style.css.map */
